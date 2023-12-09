@@ -9,6 +9,7 @@ import jakarta.validation.Validator;
 import jakarta.validation.ValidatorFactory;
 import java.util.Set;
 
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class BookValidationTests {
