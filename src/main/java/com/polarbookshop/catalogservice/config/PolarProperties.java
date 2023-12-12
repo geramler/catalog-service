@@ -10,6 +10,16 @@ public class PolarProperties {
      */
     private String greeting;
 
+    private boolean testdataEnabled;
+
+    public boolean isTestdataEnabled() {
+        return testdataEnabled;
+    }
+
+    public void setTestdataEnabled(boolean testdataEnabled) {
+        this.testdataEnabled = testdataEnabled;
+    }
+
     public String getGreeting() {
         return greeting;
     }
